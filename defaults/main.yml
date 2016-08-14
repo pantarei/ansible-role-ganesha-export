@@ -1,0 +1,25 @@
+---
+# defaults file for hswong3i.ganesha_export
+
+ganesha_export: [
+#  {
+#    export_id: "77",
+#    path: "/srv/export/home",
+#    pseudo: "/srv/export",
+#    access_type: "rw",
+#    fsal: {
+#      name: "vfs"
+#    },
+#  },
+#  {
+#    export_id: "99",
+#    path: "/home",
+#    pseudo: "/srv/export",
+#    access_type: "rw",
+#    fsal: {
+#      name: "gluster",
+#      hostname: "localhost",
+#      volume: "home",
+#    },
+#  },
+]

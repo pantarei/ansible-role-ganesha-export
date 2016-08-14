@@ -1,0 +1,13 @@
+---
+
+ganesha_export: [
+  {
+    export_id: "77",
+    path: "/srv/export/home",
+    pseudo: "/srv/export",
+    access_type: "rw",
+    fsal: {
+      name: "vfs"
+    },
+  },
+]

@@ -1,0 +1,16 @@
+# {{ ansible_managed }}
+
+{% for export in ganesha_export %}
+EXPORT {
+{% for key, value in export.iteritems() recursive %}
+{% if value is mapping %}
+    {{ key }} {
+    {{ loop(value.iteritems()) | indent }}
+    }
+{% else %}
+    {{ key }} = {{ value }};
+{% endif %}
+{% endfor %}
+}
+
+{% endfor %}

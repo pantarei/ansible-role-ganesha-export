@@ -5,17 +5,27 @@ ganesha_export: [
 #  {
 #    export_id: "77",
 #    path: "/srv/export/home",
-#    pseudo: "/srv/export",
+#    pseudo: "/srv/export/home",
 #    access_type: "rw",
+#    square: "no_root_seuash",
+#    disable_acl: "true",
+#    transports: "'udp', 'tcp'",
+#    sectype: "sys",
+#    protocols: "'3', '4'",
 #    fsal: {
 #      name: "vfs"
 #    },
 #  },
 #  {
 #    export_id: "99",
-#    path: "/home",
-#    pseudo: "/srv/export",
+#    path: "/srv/export/home",
+#    pseudo: "/srv/export/home",
 #    access_type: "rw",
+#    square: "no_root_seuash",
+#    disable_acl: "true",
+#    transports: "'udp', 'tcp'",
+#    sectype: "sys",
+#    protocols: "'3', '4'",
 #    fsal: {
 #      name: "gluster",
 #      hostname: "localhost",

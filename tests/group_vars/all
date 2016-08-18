@@ -8,9 +8,9 @@ ganesha_export: [
     access_type: "rw",
     square: "no_root_seuash",
     disable_acl: "true",
-    transports: "'udp', 'tcp'",
+    transports: "udp, tcp",
     sectype: "sys",
-    protocols: "'3', '4'",
+    protocols: "3, 4",
     fsal: {
       name: "vfs"
     },

@@ -9,9 +9,9 @@ ganesha_export: [
 #    access_type: "rw",
 #    squash: "no_root_squash",
 #    disable_acl: "true",
-#    transports: "udp, tcp",
+#    transports: "tcp",
 #    sectype: "sys",
-#    protocols: "3, 4",
+#    protocols: "4",
 #    fsal: {
 #      name: "vfs"
 #    },
@@ -23,9 +23,9 @@ ganesha_export: [
 #    access_type: "rw",
 #    squash: "no_root_squash",
 #    disable_acl: "true",
-#    transports: "udp, tcp",
+#    transports: "tcp",
 #    sectype: "sys",
-#    protocols: "3, 4",
+#    protocols: "4",
 #    fsal: {
 #      name: "gluster",
 #      hostname: "localhost",
